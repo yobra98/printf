@@ -40,5 +40,8 @@ char *rev_string(char *);
 void write_base(char *str);
 char *_memcpy(char *dest, char *src, unsigned int n);
 int print_unsgined_number(unsigned int);
-
+char *itos(char str[], long int n);
+char *utos(char str[], unsigned int num);
+int num_len(int num);
+int _strlen(char *s);
 #endif
